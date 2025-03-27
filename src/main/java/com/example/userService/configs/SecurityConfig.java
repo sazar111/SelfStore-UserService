@@ -8,13 +8,13 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @Configuration
 public class SecurityConfig {
 
-    /*
+
     //Disables security for api endpoints
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
         return (web) -> web.ignoring()
                 .requestMatchers(new AntPathRequestMatcher("/**"));
-    }*/
+    }
 
 
 }

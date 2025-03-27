@@ -46,7 +46,10 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public UserDto getUserDetails(@PathVariable Long id){
-        return null;
+    public String getUserDetails(@PathVariable Long id){
+        //TODO
+        System.out.println("HEREEEEEEEEEE! "+id);
+
+        return "DONE";
     }
 }
